@@ -123,7 +123,7 @@ document.querySelector('#set-alarm').addEventListener('click', () => {
 
           else if(document.getElementById('lunch').value === `${date.getHours()%12} AM - ${(date.getHours()%12) + 1} AM`) {
             document.getElementById('message').textContent = 'GOOD AFTERNOON !! TAKE SOME SLEEP'
-            document.getElementById('images').style.backgroundImage ="URL('./image/lunch.jpg'')";
+            document.getElementById('images').style.backgroundImage ="URL('./image/lunch.jpg')";
             }
 
             else if(document.getElementById('nap').value === `${date.getHours()%12} AM - ${(date.getHours()%12) + 1} AM`) {
